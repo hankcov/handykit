@@ -16,7 +16,7 @@
 | 4 | [demo/index.html](../demo/index.html) | 当前手机 App 样式与可点击交互 |
 | 5 | [demo/prototype.html](../demo/prototype.html) | 原始旧原型，保留供参考，不作为当前 UI 基线 |
 
-工作目录为 D:/code/github/ptoolbox，当前目录不是 Git 仓库，尚无提交、分支或远端记录。不要将任何文件误报为已提交；是否初始化版本管理应在开始工程实施时明确。
+工作目录为 D:/code/github/ptoolbox。仓库名 handykit，应用名「手边」，应用 ID 定为 com.handykit.app。当前已在 main 分支建立首个提交，尚无远端记录；未推送前不要将文件误报为已同步。
 
 ## 用户已明确的产品方向
 
