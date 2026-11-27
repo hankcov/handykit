@@ -2,7 +2,9 @@
 
 更新时间：2026-11-27。面向接手 Android 工程、原型调整和接口验证的开发者。
 
-项目当前处于需求与技术设计阶段，已有手机 HTML 交互原型，尚无 Android 工程、可安装 APK 或真实接口闭环。接手应先读需求及设计，再处理高风险验证，不要把 Demo 中的状态切换当成正式功能。
+**实施状态更新（2026-11-27 晚）**：Android 工程已建立，全功能代码约 13,300 行，`assembleDebug` 零警告通过、可产出 APK，核心算法单测 5/5 通过。各模块的已实现/未实现/待真机验证逐项记录见 [IMPLEMENTATION_STATUS.md](IMPLEMENTATION_STATUS.md)。接手先读该文，不要把「编译通过」当成「真机验证完成」，也不要把 Demo 中的状态切换当成正式功能。
+
+（以下为需求与技术设计阶段的原始交接内容，部分实施状态表述已被上文更新。）
 
 ## 文件与阅读顺序
 
@@ -16,7 +18,7 @@
 | 4 | [demo/index.html](../demo/index.html) | 当前手机 App 样式与可点击交互 |
 | 5 | [demo/prototype.html](../demo/prototype.html) | 原始旧原型，保留供参考，不作为当前 UI 基线 |
 
-工作目录为 D:/code/github/ptoolbox。仓库名 handykit，应用名「手边」，应用 ID 定为 com.handykit.app。当前已在 main 分支建立首个提交，尚无远端记录；未推送前不要将文件误报为已同步。
+工作目录为 D:/code/github/ptoolbox。仓库名 handykit，应用名「手边」，应用 ID 为 com.handykit.app。远端 `https://github.com/hankcov/handykit.git` 已关联为 origin，main 分支跟踪 origin/main。
 
 ## 用户已明确的产品方向
 
