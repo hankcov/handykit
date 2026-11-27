@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">手边</string>
+    <string name="tab_home">首页</string>
+    <string name="tab_music">音乐</string>
+    <string name="tab_news">新闻</string>
+    <string name="tab_ai">AI</string>
+    <string name="home_title">手边</string>
+    <string name="home_subtitle">随手可用的工具箱</string>
+    <string name="home_reorder">排序</string>
+    <string name="placeholder_note">演示占位，功能尚未实现</string>
+</resources>
