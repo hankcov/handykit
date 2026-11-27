@@ -3,6 +3,7 @@
 
 # Android / Gradle 构建产物
 .gradle/
+.kotlin/
 build/
 local.properties
 captures/
